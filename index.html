@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <main data-theme="dark">
+        <header class="header">
+            <h1 class="title">Calculadora JS</h1>
+            <button class="switchTheme" id="switchTheme">Escolha o tema Dark/Light</button>
+        </header>
+        <div class="inputCalculate">
+            <input type="text" class="inputForCalc" id="inputForCalc">
+        </div>
+        <div class="keyBoard">
+            <button id="clear">C</button>
+            <button class="charKey" data-value=" ( ">(</button>
+            <button class="charKey" data-value=" ) ">)</button>
+            <button class="charKey" data-value=" / ">/</button>
+            <button class="charKey" data-value="7">7</button>
+            <button class="charKey" data-value="8">8</button>
+            <button class="charKey" data-value="9">9</button>
+            <button class="charKey" data-value=" * ">x</button>
+            <button class="charKey" data-value="4">4</button>
+            <button class="charKey" data-value="5">5</button>
+            <button class="charKey" data-value="6">6</button>
+            <button class="charKey" data-value=" - ">-</button>
+            <button class="charKey" data-value="1">1</button>
+            <button class="charKey" data-value="2">2</button>
+            <button class="charKey" data-value="3">3</button>
+            <button class="charKey" data-value=" + ">+</button>
+            <button class="charKey" data-value="0">0</button>
+            <button class="charKey" data-value=".">.</button>
+            <button class="charKey" data-value=" % ">mod</button>
+            <button id="equal" data-value=" = ">=</button>
+        </div>
+        <div id="result">
+            <button id="copy">Copiar</button>
+            <input type="text" disabled id="resultFinal">
+        </div>
+        <footer>Dev by <a href="https://www.linkedin.com/in/ogabrielviana/" target="_blank">Gabriel Viana</a></footer>
+    </main>
+</body>
+</html>
